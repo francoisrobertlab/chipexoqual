@@ -16,8 +16,7 @@ whatis("Keywords: ChIPexoQual, Utility")
 whatis("URL: https://www.bioconductor.org/packages/release/bioc/html/ChIPexoQual.html")
 whatis("Description: Quality control pipeline for ChIP-exo/nexus data.")
 
-always_load("nixpkgs/16.09")
-always_load("gcc/7.3.0")
+prereq("gcc/7.3.0")
 always_load("r/4.0.2")
 
 local home = os.getenv("HOME") or ""
