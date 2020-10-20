@@ -7,8 +7,11 @@ This module sets the following environment variables:
     R_LIBS_USER:    sets R library directory to use ChIPexoQual
     R_PROFILE_USER: allows to configure CPAN automatically
 
-This module loads the following modules and their requirements:
+This module loads the following modules:
     - r/4.0.2
+
+You will need to load all module(s) on any one of the lines below before the "chipexoqual" module is available to load.
+    gcc/7.3.0
 ]])
 
 whatis("Version: 1.0 or later, but before 1,1")
